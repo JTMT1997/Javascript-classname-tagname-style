@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<p class="pr"> Belajar Javascript</p>
+		<p class="pr"> Belajar PHP</p>
+
+
+
+	<p class="pr"> Belajar Database</p>
+
+	
+	<h1>testt</h1>
+	<h1>Selamat datang</h1>
+	<script >
+			
+			// Yang atas Dihitung satu satu. 
+	
+			
+			var warna = document.getElementsByClassName('pr');
+			
+			for(var i = 0; i<warna.length; i++){
+					
+				(warna[i]).style.background = 'yellow';
+				document.write("Jumlah Element "+i) ;
+
+
+			}
+
+			
+
+				// Yang bawah langsung jumlah element nya 
+
+				
+
+			var warna = document.getElementsByClassName("pr");
+			document.write("Jumlah Element = "+warna.length);
+
+			for(var data in warna){
+				warna[data].style.background = 'red';
+			}
+
+
+			// var warna = document.getElementsByTagName('p');
+			// var c = 0;
+			
+
+	</script>
+</body>
+</html>
+
+
